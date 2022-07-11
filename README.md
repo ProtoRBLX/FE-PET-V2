@@ -1,6 +1,6 @@
 local tangerex = loadstring(game:HttpGet("https://5f4d3288-7026-4802-bb67-917a76b5e7d8.id.repl.co/Tangerex/Template/main.lua"))()
 
-reanimate = tangerex:Reanimate("PD",false --[[Usage: true or false to toggle click fling]]) -- SP / Simple, LF / Leg Fling, TF / Torso Fling, PD / Perma Death [Fling]
+reanimate = tangerex:Reanimate("TF",false --[[Usage: true or false to toggle click fling]]) -- SP / Simple, LF / Leg Fling, TF / Torso Fling, PD / Perma Death [Fling]
 
 reanimate:Animation("idle",function()
 reanimate:Hat("MeshPartAccessory","Head",false,function()
